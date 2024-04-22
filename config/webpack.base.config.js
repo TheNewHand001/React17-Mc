@@ -16,8 +16,8 @@ const webpackBaseConfig = {
         use:'babel-loader'
       },
       {
-        test:/\.(sc|c)ss/,
-        use:['style-loader','css-loader','scss-loader']
+        test:/\.css/,
+        use:['style-loader','css-loader',]
       }
     ]
   }
