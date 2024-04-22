@@ -4,7 +4,7 @@ const { merge } = require("webpack-merge");
 const OpenBrowserPlugin = require("open-browser-webpack4-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpackConfigBase = require("./webpack.base.config");
-const PORT = 8080
+const PORT = 8080;
 const webpackConfigDev = {
   mode: "development",
   plugins: [

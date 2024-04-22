@@ -1,0 +1,14 @@
+{
+  "env":{
+    "browser": true
+  },
+  "extends":[
+    "airbnb"
+  ],
+  "rules":{
+    "react/prefer-stateless-function": "off",
+    "quotes": ["error", "double"],
+    "linebreak-style": ["error", "windows"]
+  }
+
+}
