@@ -5,10 +5,18 @@
   "extends":[
     "airbnb"
   ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
   "rules":{
     "react/prefer-stateless-function": "off",
     "quotes": ["error", "double"],
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": ["error", "windows"],
+    "react/jsx-filename-extension":["error",{"extensions":[".js",".jsx",".ts",".tsx"]}],
+    "no-unused-vars":"warn",
+    "no-use-before-define":"off"
   }
 
 }
