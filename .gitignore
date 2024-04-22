@@ -1,0 +1,50 @@
+# 依赖文件
+node_modules/
+
+# 构建输出
+/dist
+/build
+/tmp
+/out-tsc
+
+# 日志文件
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器目录和文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 环境配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 调试文件
+*.eml
+ehthumbs.db
+
+# 版本控制系统
+.git
+
+# 归档文件（如果你不希望包含打包文件）
+*.zip
+*.tar
+*.gz
+
+# 测试文件
+/coverage/
